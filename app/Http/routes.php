@@ -35,8 +35,6 @@ Route::post('auth/register', ['as' => 'auth/register', 'uses' => 'Auth\AuthContr
 // //Route::resource('clientes', 'ClientesController');
 
 
-Route::get('auth/register', 'Auth\AuthController@getRegister');
-
 
 /*
 |--------------------------------------------------------------------------
